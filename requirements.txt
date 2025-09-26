@@ -1,4 +1,37 @@
+# Core Flask dependencies
 Flask==2.3.0
 Flask-SQLAlchemy==3.0.3
+Flask-CORS==4.0.0
+Flask-Migrate==4.0.4
 SQLAlchemy==2.0.19
 
+# Database drivers
+psycopg2-binary==2.9.6
+
+# Authentication and security
+PyJWT==2.8.0
+Werkzeug==2.3.6
+
+# File handling and media
+Pillow==10.0.0
+python-magic==0.4.27
+
+# Search and text processing
+whoosh==2.7.4
+
+# Utilities
+python-slugify==8.0.1
+python-dotenv==1.0.0
+marshmallow==3.20.1
+
+# Development and testing
+pytest==7.4.0
+pytest-flask==1.2.0
+pytest-cov==4.1.0
+factory-boy==3.3.0
+
+# Production server
+gunicorn==21.2.0
+
+# Monitoring and logging
+structlog==23.1.0
